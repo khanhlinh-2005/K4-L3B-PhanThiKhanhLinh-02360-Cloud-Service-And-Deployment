@@ -64,6 +64,6 @@ jobs:
 
       - name: Deploy
         run: |
-          railway up --service K4-L3B-PhanThiKhanhLinh-02360-Cloud-Service-And-Deployment
+          railway up --service 
         env: 
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }} 
