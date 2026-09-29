@@ -64,6 +64,6 @@ jobs:
 
       - name: Deploy
         run: |
-          railway up --service 
+          railway up --service production-agent
         env: 
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }} 
